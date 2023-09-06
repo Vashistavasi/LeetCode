@@ -1,0 +1,13 @@
+<h2>String Input</h2>
+
+<form>
+  <label for="string1">String 1:</label>
+  <input type="text" id="string1" [(ngModel)]="string1"><br><br>
+   {{string1}}
+  <label for="string2">String 2:</label>
+  <input type="text" id="string2" [(ngModel)]="string2"><br><br>
+    {{string2}}
+  <button type="button" (click)="onclick()">Print Output</button>
+</form>
+
+<p *ngIf="output">Output: {{ output }}</p>
