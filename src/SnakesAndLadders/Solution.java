@@ -15,7 +15,7 @@ class Node {
     }
 }
 class Solution {
-    public int snakesAndLadders1...(int[][] board) {
+    public int snakesAndLadders1(int[][] board) {
         {
             Map<Integer, Node> hm = new HashMap<>();
             int node=1; int len= board.length;
