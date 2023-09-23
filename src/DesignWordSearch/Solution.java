@@ -48,6 +48,7 @@ class Trie{
                TrieNode node=current.children.get(ch);
                if(node==null)return false;
                current=node;
+               return search(word.substring(i+1,word.length()),current);
            }
         }
         return current.isEnd;
